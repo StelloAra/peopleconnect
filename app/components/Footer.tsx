@@ -1,7 +1,14 @@
 export default function Footer() {
   return (
     <footer className="w-full bg-black mt-24">
-      <div className="max-w-6xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-cyan-700">
+      <div
+        className="  max-w-6xl mx-auto px-6 py-6
+  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
+  gap-8
+  text-cyan-700
+  text-center md:text-left
+"
+      >
         {/* Project name */}
         <div>
           <h3 className="font-semibold text-lg mb-2">PeopleConnect</h3>
@@ -26,7 +33,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-gray-300 text-center py-4 text-sm text-gray-500">
+      <div className="border-t border-gray-300 text-center py-4 text-sm text-cyan-800">
         © {new Date().getFullYear()} PeopleConnect. All rights reserved.
       </div>
     </footer>
